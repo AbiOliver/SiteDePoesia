@@ -71,7 +71,7 @@ section.normal{
 }
 
 section.imagem{
-    font-size: 3em;
+    
     background-attachment: fixed;
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.622);
     background-color:rgb(22, 22, 22);

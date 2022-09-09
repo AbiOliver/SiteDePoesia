@@ -25,29 +25,40 @@ img{
     width: 50px;
     height: 50px;
 }
+
 header{
-   display: flex;
-   flex-direction: row;
-   align-items:flex-end;
-   justify-content: space-evenly;
-   background-color: black;
-   box-shadow: 2px 0px 10px black;
-   color: white;
-   text-align: center;
-}
-
-
-header > h1{
-    
-    font-family:'Passion One';
-    font-variant: small-caps;
-    padding-top: 45px;
-    font-size: 5vw;
-    color: rgba(242, 242, 242, 0.788);
+    background-image: linear-gradient(to top,gray, white);
+    box-shadow: 2px 1px 6px rgba(0, 0, 0, 0.271);
    
 }
+header img{
+display: none;
+}
+header h1{
+    font-size: 8vw;
+    font-variant: small-caps;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left:160px;
+
+}
+
 header > p{
     padding-bottom: 50px;
+}
+span#burguer{
+               
+    display: block;
+    color: white;
+    font-size: 36px;
+    text-align: center;
+    padding: 5px;
+}
+   span#burguer:hover{
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.253);
+    color: black;
+    cursor: pointer;
 }
 menu{
     display: none;
@@ -56,6 +67,7 @@ menu > ul{
     list-style-type: none;
     text-decoration: none;
    }
+
    menu > ul > li > a{
        display: block ;
        padding: 10px;
@@ -119,13 +131,12 @@ section#img2{
             background-image: url('../imagens/OIP\ \(1\).jfif');
 }
 a{
-    font-weight: bolder;
+    font-family: var(--font1);
+    font-weight: lighter;
     color: white;
     text-decoration: none;
 }
-a:hover{
-    text-decoration: underline;
-}
+
 footer{
     padding: 10px;
     color: white;

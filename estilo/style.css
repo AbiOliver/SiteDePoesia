@@ -35,19 +35,18 @@ header img{
 display: none;
 }
 header h1{
+    text-align: center;
     font-size: 8vw;
     font-variant: small-caps;
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin-left:160px;
-
 }
 
 header > p{
     padding-bottom: 50px;
+   
 }
-span#burguer{
-               
+span#burguer{          
     display: block;
     color: white;
     font-size: 36px;
@@ -81,7 +80,6 @@ menu > ul{
    menu > ul > li > a:hover{
     background-color: rgb(179, 179, 179);
    }
-  
 section{
     font-size: 20px;
     font-style: italic;
@@ -147,4 +145,4 @@ footer{
 footer a:hover::after{
     
    content: '\00A0\1F498';
-   }
+}

@@ -16,14 +16,16 @@
     --font2: 'Passion One', cursive;
     --font3: 'amor', cursive;  
 }
-body{background-color: #F2E9CE;
+body{
+    background-color: #F2E9CE;
+  
 }
 img{
     width: 50px;
     height: 50px;
 }
 header{
-        width: 400px;
+        width: 300px;
         margin: auto;
         margin-bottom: 20px;
         border: 1px solid #D99484;
@@ -45,7 +47,6 @@ header h1{
 
 header > p{
     padding-bottom: 50px;
-   
 }
 span#burguer{          
     display: block;
@@ -54,7 +55,6 @@ span#burguer{
     text-align: center;
     padding: 5px;
     border-radius: 0px 0px 10px 10px;
-   
     background-color:  #D99484;
     border: 1px solid #8C6472;
 }
@@ -66,15 +66,12 @@ span#burguer{
 }
 menu{
     display: none;
-
 }
 menu > ul{
     list-style-type: none;
     text-decoration: none;
 
    }
- 
-
    menu > ul > li > a{
        display: block ;
        padding: 10px;
@@ -82,58 +79,56 @@ menu > ul{
        text-align: center  ;
        color: #D99484;
        font-weight: bold;
-     
+       background-color: #F2E9CE;
    }
- 
-section{
-    font-size: 20px;
-    font-style: italic;
-    padding-top: 10vh;
-    padding-bottom: 10vh;
-    padding-left: 30px;
-    line-height: 2.5em;
-}
+   section{
+    font-size: 15px;
+    line-height: 2em;
+    width: 300px;
+  
 
+}
 section.normal{
-    display: flex;
-    flex-direction: column;
-    align-items: left;
-    justify-content: start;
-    color: black;
-    background-color: rgba(137, 137, 137, 0.059);
+    text-align: center;
+    display: block;
+    margin: auto;
+    color: #A62631;
+  
+  
+   
 }
 
 section.imagem{
-    
     background-attachment: fixed;
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.622);
-    background-color:rgb(22, 22, 22);
-    color: rgb(255, 255, 255);
-}
-section.imagem > p{
-    text-shadow: 2px 1px 0px black;
-    padding: 5px;
-    display: inline-block;
-    background-color: rgba(0, 0, 0, 0.536);
-}
+    color: #A62631;
+  }
+  section.imagem > p{
+    text-align: center;
+    display: block;
+    background-color: #f2e9ce4f;
+    width: 300px;
+    margin: auto;
+  }
+
 section > p{
     font-family: Arial, Helvetica, sans-serif;
     padding-bottom: 5em;
+    background-color: white;
 }
 section#img1{
-         
-            
+            margin: auto;
             background-image: url('../imagens/OIP.jfif');
             background-position: right center;
             background-size: cover;
+            opacity: .7;
 }
-
 section#img2{
+            margin: auto;
             background-position: right center;
             background-size: cover;
             background-image: url('../imagens/OIP\ \(1\).jfif');
 }
-
 section.session{
    position: absolute;
    top: 60%;
@@ -146,7 +141,6 @@ section.session{
     border-radius: none;
     transition: .7s ease;
 }
-
 .session a{
     text-align: center;
     color: #8C6472;
@@ -157,17 +151,21 @@ section.session{
 }
 
 a{
-    padding: 5px;
-    font-family: var(--font1);
+    padding: 1px;
     font-weight: lighter;
-    color: white;
+    color: #8C6472;
     text-decoration: none;
 }
-
+a:hover{
+    color: #8C0303;
+}
+footer>p{
+    color: #8C6472;
+}
 footer{
     padding: 10px;
     color: #D99484;
     text-align: center;
-    border-top: #8C6472;
+    border-top:1px solid #8c030352;
 }
 

@@ -7,10 +7,23 @@
     <title>Poesia Melancólica</title>
     <link rel="stylesheet" href="estilo/style.css">
     <link rel="stylesheet" href="estilo/telagrande.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
     <link rel="shortcut icon" href="imagens/poetry-512.webp" type="image/x-icon">
 
     <style>
 
+.material-icons{
+        border: none;
+        float: right;
+        color: #D99484;
+       
+     }
+     .material-icons:hover{
+        color: #8C6472;
+     }
+     abbr>title{
+        color: #8C6472; 
+     }
         header{
              display: flex;
              flex-direction: row;
@@ -37,9 +50,9 @@ section#img2{
 <body>
     <audio src="audio/Habanera (by Bizet) - Bizet.mp3" autoplay></audio>
     <header><h1>Melancólica</h1>
-    <nav>
-        <p  style="margin-top: 10px; font-variant: small-caps;"><a href="index.html">página inicial</a></p>
-    </nav>
+        <nav>
+            <abbr title="Voltar"><a href="index.html"><span class="material-icons" onclick="clickMenu()">reply</span></a></abbr>
+        </nav>
    </header>
 
     <section class="normal">

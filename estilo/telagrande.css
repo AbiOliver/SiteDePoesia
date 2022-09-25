@@ -48,6 +48,27 @@ menu ul{
     border-bottom: 1px solid #A62631;
     color: #A62631;
 }
+section.imagem{
+  background-attachment: fixed;
+  box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.622);
+  color: #A62631;
+}
+section.imagem > p{
+  text-align: center;
+  display: block;
+  background-color: #f2e9ce4f;
+  width: 400px;
+  margin: auto;
+}
+section{
+  font-size: 15px;
+  line-height: 2em;
+  width: 768px;
+
+}
+section >p{
+  background-color: white;
+}
 
   .material-icons{
     display:flex;
@@ -63,25 +84,35 @@ menu ul{
 
 
 @media screen and (max-width: 768px){
+  header>h1{
+    font-size: 3em;
+  }
    menu>ul>li>a{
     border-top:1px solid #D99484;
+    
+    color: #D99484;
    }
    menu>ul>li>a:hover{
     border-top:1px solid #A62631;
     color: #A62631;
+
    }
       .material-icons{
         display:flex;
         border-top: 1px solid;
         color:#8C6472 ;
       }
+    
       section.session{
         position: absolute;
-        top: 80%;
+        top:50%;
         left:50%;
         transform: translate(-50%,-50%);
+        z-index: -1;
+        
      }
      .session a:hover ~ .material-icons{
         color:#A62631 ;
       }
+ 
 }

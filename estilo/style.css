@@ -3,8 +3,10 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box
+    var(--font4);
 }
 @import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap');
 
 @font-face {
     font-family: 'mono';
@@ -15,6 +17,7 @@
     --font1: verdana, Geneva, Tahoma, sans-serif;
     --font2: 'Passion One', cursive;
     --font3: 'amor', cursive;  
+    --font4: 'lato';
 }
 body{
     background-color: #F2E9CE;
@@ -70,9 +73,8 @@ menu{
 menu > ul{
     list-style-type: none;
     text-decoration: none;
-
-   }
-   menu > ul > li > a{
+}
+menu > ul > li > a{
        display: block ;
        padding: 10px;
        text-decoration: none;
@@ -80,54 +82,25 @@ menu > ul{
        color: #D99484;
        font-weight: bold;
        background-color: #F2E9CE;
-   }
-   section{
-    font-size: 15px;
-    line-height: 2em;
-    width: 300px;
-  
-
 }
-section.normal{
-    text-align: center;
-    display: block;
-    margin: auto;
-    color: #A62631;
-  
-  
-   
-}
-
-section.imagem{
-    background-attachment: fixed;
-    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.622);
-    color: #A62631;
-  }
-  section.imagem > p{
-    text-align: center;
-    display: block;
-    background-color: #f2e9ce4f;
+section{
     width: 300px;
     margin: auto;
-  }
-
+    margin-bottom:2em ;
+}
+section >h2{
+    font-size: 20px;
+    color: #8C6472;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 5px;
+}
 section > p{
-    font-family: Arial, Helvetica, sans-serif;
-    padding-bottom: 5em;
-    background-color: white;
-}
-section#img1{
-            margin: auto;
-            background-image: url('../imagens/OIP.jfif');
-            background-position: right center;
-            background-size: cover;
-            opacity: .7;
-}
-section#img2{
-            margin: auto;
-            background-position: right center;
-            background-size: cover;
-            background-image: url('../imagens/OIP\ \(1\).jfif');
+    line-height: 1.7em;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 5px;
+    color: #8C6472;
 }
 section.session{
    position: absolute;
@@ -149,21 +122,21 @@ section.session{
     font-size: 30px;
     font-variant: small-caps;
 }
-
 a{
     padding: 1px;
     font-weight: lighter;
-    color: #8C6472;
+    color: #D99484;
     text-decoration: none;
 }
 a:hover{
     color: #8C0303;
 }
 footer>p{
-    color: #8C6472;
+    color: #D99484;
+    padding: 10px;
 }
 footer{
-    padding: 10px;
+  
     color: #D99484;
     text-align: center;
     border-top:1px solid #8c030352;

@@ -65,6 +65,7 @@ span#burguer{
     border-radius: 0px 0px 10px 10px;
     background-color:  #D99484;
     border: 1px solid #8C6472;
+   
 }
    span#burguer:hover{
     color: #8C0303;
@@ -74,11 +75,10 @@ span#burguer{
 }
 menu{
     display: none;
-    
 }
 menu > ul{
     list-style-type: none;
-    text-decoration: none;
+    text-decoration: none;   
 }
 menu > ul > li > a{
        display: block ;
@@ -89,7 +89,6 @@ menu > ul > li > a{
        font-weight: bold;
        background-color: #F2E9CE;
        transition: 1s ease;
-     
 }
 section{
     width: 300px;

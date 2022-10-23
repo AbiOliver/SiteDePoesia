@@ -2,11 +2,10 @@
 *{
     margin: 0px;
     padding: 0px;
-    box-sizing: border-box
+    box-sizing: border-box;
 }
 
 @media screen and (min-width: 768px) {
-
     header{
         width: 768px;
         margin: auto;
@@ -15,13 +14,8 @@
         border-top: none;
         border-radius: 0px 0px 10px 10px;
     }
-header h1{
-    
-}
-
 span#burguer{
     display: none;
-
 }
 menu{
     display: block;
@@ -48,29 +42,55 @@ menu ul{
     border-bottom: 1px solid #A62631;
     color: #A62631;
 }
+.sublista{
+  width: 100px;
+  font-size: 12px;
+  display: block;
+  text-align: center;
+  color: #F2E9CE;
+  border-bottom:1px solid white;
+  visibility: hidden;
+  padding: 10px;
 
+}
+a:focus ~ .sublista{
+  display: block;
+  background-color: #f49681;
+  visibility: visible;
+  transition: .6s  ease-in-out;
+}
+a.liPoesia{
+  border-bottom: none;
+  color: white;
+}
+a.liPoesia:hover{
+  border-bottom: none;
+  color: #A62631;
+  transition: .6s  ease-in-out;
+}
 section{
   font-size: 15px;
   line-height: 2em;
   width: 768px;
 }
-
-  .material-icons{
+  span.material-icons{
     display:flex;
     border-top: 1px solid;
     color:#8C6472 ;
   }
+
   .session a:hover ~ .material-icons{
     color:#A62631 ;
   }
 
 }
 
-
-
 @media screen and (max-width: 768px){
   header>h1{
     font-size: 2.5em;
+  }
+  menu{
+    background-color:  #F2E9CE;
   }
    menu>ul>li>a{
     border-top:1px solid #D99484;  
@@ -81,12 +101,34 @@ section{
     color: #A62631;
 
    }
+   .sublista{
+    display: block;
+    text-align: center;
+    color: #F2E9CE;
+    border-bottom:1px solid white;
+    visibility: hidden;
+    height:0;
+}
+a:focus ~ .sublista{
+    display: block;
+    background-color: #D99484;
+    visibility: visible;
+    height: 30px;
+    padding: 0;
+}
+a.liPoesia{
+    border-bottom: none;
+    color: white;
+}
+a.liPoesia:hover{
+    border-bottom: none;
+    color: #F2E9CE;
+}
       .material-icons{
         display:flex;
         border-top: 1px solid;
         color:#8C6472 ;
       }
-    
       section.session{
         position: absolute;
         top:50%;

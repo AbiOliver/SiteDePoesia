@@ -13,6 +13,13 @@
     src: url('../fonte/Monotage.ttf');
 }
 
+/* Color Theme Swatches in Hex */
+.Totem-1-hex { color: #A62631; }
+.Totem-2-hex { color: #8C6472; }
+.Totem-3-hex { color: #F2E9CE; }
+.Totem-4-hex { color: #D99484; }
+.Totem-5-hex { color: #8C0303; }
+
 :root{
     --font1: verdana, Geneva, Tahoma, sans-serif;
     --font2: 'Passion One', cursive;
@@ -20,8 +27,7 @@
     --font4: 'lato';
 }
 body{
-    background-color: #F2E9CE;
-  
+    background-color: #F2E9CE;  
 }
 img{
     width: 50px;
@@ -34,7 +40,6 @@ header{
         border: 1px solid #D99484;
         border-top: none;
         border-radius: 0px 0px 10px 10px;
-
 }
 header img{
 display: none;
@@ -65,10 +70,11 @@ span#burguer{
     color: #8C0303;
     cursor: pointer;
     border-radius: none;
-    transition: .7s ease;
+    
 }
 menu{
     display: none;
+    
 }
 menu > ul{
     list-style-type: none;
@@ -78,10 +84,12 @@ menu > ul > li > a{
        display: block ;
        padding: 10px;
        text-decoration: none;
-       text-align: center  ;
+       text-align: center;
        color: #D99484;
        font-weight: bold;
        background-color: #F2E9CE;
+       transition: 1s ease;
+     
 }
 section{
     width: 300px;

@@ -53,7 +53,7 @@ menu ul{
   padding: 10px;
 
 }
-a:focus ~ .sublista{
+:focus ~ .sublista{
   display: block;
   background-color: #f49681;
   visibility: visible;
@@ -68,11 +68,29 @@ a.liPoesia:hover{
   color: #A62631;
   transition: .6s  ease-in-out;
 }
+main{
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+section img{
+  width: 100px;
+  height: 100px;
+}
+section img.img{
+  position: absolute;
+  top: 98px;
+  left: 17%;
+}
 section{
   font-size: 15px;
   line-height: 2em;
   width: 768px;
 }
+
   span.material-icons{
     display:flex;
     border-top: 1px solid;
@@ -126,6 +144,9 @@ a.liPoesia{
 a.liPoesia:hover{
     border-bottom: none;
     color: #F2E9CE;
+} 
+main img{
+  display: none;
 }
       .material-icons{
         display:flex;

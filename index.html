@@ -23,42 +23,42 @@
         <span  id="burguer" class="material-icons" onclick=" clickMenu()" >menu</span>
         <menu id="itens">
                  <ul >                       
-                    <li >
-                        <a href="#">Românticas</a>
-                         <div class="sublista"><a href="poesias/romantica.html" class="liPoesia" >garota complexa</a></div>
-                         <div class="sublista"><a href="poesias/moçalinda.html" class="liPoesia">moça linda</a></div>
-                         <div class="sublista"><a href="" class="liPoesia">espetacular</a></div>
-                         <div class="sublista"><a href="" class="liPoesia">estrela</a></div>
+                    <li>
+                        <a href="#" onclick="clickA()" id="li">Românticas</a>
+                         <div class="sublista" id="li_s1"><a href="poesias/romantica.html" class="liPoesia" >garota complexa</a></div>
+                         <div class="sublista" id="li_s2"><a href="poesias/moçalinda.html" class="liPoesia">moça linda</a></div>
+                         <div class="sublista" id="li_s3"><a href="" class="liPoesia">espetacular</a></div>
+                         <div class="sublista" id="li_s4"><a href="" class="liPoesia">estrela</a></div>
                         </li>      
                     <li >
                        
-                        <a href="#">Críticas</a>
-                        <div class="sublista" id="li"><a href="romantica.html" class="liPoesia">garota complexa</a></div>
-                         <div class="sublista"><a href="" class="liPoesia">moça linda</a></div>
-                         <div class="sublista"><a href="" class="liPoesia">espetacular</a></div>
-                         <div class="sublista"><a href="" class="liPoesia">estrela</a></div>
+                        <a href="#" onclick="clickB()" id="li2">Críticas</a>
+                        <div class="sublista"  id="li2_s1"><a href="romantica.html" class="liPoesia">garota complexa</a></div>
+                         <div class="sublista" id="li2_s2"><a href="" class="liPoesia">moça linda</a></div>
+                         <div class="sublista" id="li2_s3"><a href="" class="liPoesia">espetacular</a></div>
+                         <div class="sublista" id="li2_s4"><a href="" class="liPoesia">estrela</a></div>
                     </li>
 
                     <li>
-                        <a href="#">Eróticas</a>
-                        <div class="sublista"><a href="romantica.html" class="liPoesia">garota complexa</a></div>
-                        <div class="sublista"><a href="" class="liPoesia">moça linda</a></div>
-                        <div class="sublista"><a href="" class="liPoesia">espetacular</a></div>
-                        <div class="sublista"><a href="" class="liPoesia">estrela</a></div>
+                        <a href="#" onclick="clickC()" id="li3">Eróticas</a>
+                        <div class="sublista" id="li3_s1"><a href="romantica.html" class="liPoesia">garota complexa</a></div>
+                        <div class="sublista" id="li3_s2"><a href="" class="liPoesia">moça linda</a></div>
+                        <div class="sublista" id="li3_s3"><a href="" class="liPoesia">espetacular</a></div>
+                        <div class="sublista" id="li3_s4"><a href="" class="liPoesia">estrela</a></div>
                     </li>
 
-                    <li><a href="#">Livres </a>
-                        <div class="sublista"><a href="romantica.html" class="liPoesia">garota complexa</a></div>
-                        <div class="sublista"><a href="" class="liPoesia">moça linda</a></div>
-                        <div class="sublista"><a href="" class="liPoesia">espetacular</a></div>
-                        <div class="sublista"><a href="" class="liPoesia">estrela</a></div>
+                    <li><a href="#" onclick="clickD()" id="li4">Livres </a>
+                        <div class="sublista" id="li4_s1"><a href="romantica.html" class="liPoesia">garota complexa</a></div>
+                        <div class="sublista" id="li4_s2"><a href="" class="liPoesia">moça linda</a></div>
+                        <div class="sublista" id="li4_s3"><a href="" class="liPoesia">espetacular</a></div>
+                        <div class="sublista" id="li4_s4"><a href="" class="liPoesia">estrela</a></div>
                     </li>       
 
-                    <li><a href="#">Outras</a>
-                        <div class="sublista"><a href="romantica.html" class="liPoesia">garota complexa</a></div>
-                         <div class="sublista"><a href="" class="liPoesia">moça linda</a></div>
-                         <div class="sublista"><a href="" class="liPoesia">espetacular</a></div>
-                         <div class="sublista"><a href="" class="liPoesia">estrela</a></div>
+                    <li><a href="#" onclick="clickE()" id="li5">Outras</a>
+                        <div class="sublista" id="li5_s1"><a href="romantica.html" class="liPoesia">garota complexa</a></div>
+                         <div class="sublista" id="li5_s2"><a href="" class="liPoesia">moça linda</a></div>
+                         <div class="sublista" id="li5_s3"><a href="" class="liPoesia">espetacular</a></div>
+                         <div class="sublista" id="li5_s4"><a href="" class="liPoesia">estrela</a></div>
                     </li>
                 </ul>
      </menu>
@@ -77,7 +77,7 @@
     </main>
     <script>
            function mudouTamanho(){
-            if(window.innerWidth >= 768){
+            if(window.innerWidth >= 799){
                 itens.style.display = 'block'
             }else{
                 itens.style.display = 'none'
@@ -91,15 +91,74 @@
                 itens.style.display = 'block'   
             }    
         }
-        function clickLi(){
-            if(sublista.style.display == 'block'){
-                sublista.style.display = 'none'
+        function clickA(){
+            if(li.style.display == 'block'){
+                li_s1.style.display = 'none'
+                li_s2.style.display = 'none'
+                li_s3.style.display = 'none'
+                li_s4.style.display = 'none'
+
             }else{
-                sublista.style.display = 'block'
+                li_s1.style.display = 'block'
+                li_s2.style.display = 'block'
+                li_s3.style.display = 'block'
+                li_s4.style.display = 'block'
+            } 
+           
+        }
+        function clickB(){
+            if(li2.style.display == 'block'){
+                li2_s1.style.display = 'none'
+                li2_s2.style.display = 'none'
+                li2_s3.style.display = 'none'
+                li2_s4.style.display = 'none'
+            }else{
+                li2_s1.style.display = 'block'
+                li2_s2.style.display = 'block'
+                li2_s3.style.display = 'block'
+                li2_s4.style.display = 'block'
             }
         }
-           
-       
+        function clickC(){
+            if(li3.style.display == 'block'){
+                li3_s1.style.display = 'none'
+                li3_s2.style.display = 'none'
+                li3_s3.style.display = 'none'
+                li3_s4.style.display = 'none'
+            }else{
+                li3_s1.style.display = 'block'
+                li3_s2.style.display = 'block'
+                li3_s3.style.display = 'block'
+                li3_s4.style.display = 'block'
+            }
+        }
+        function clickD(){
+            if(li4.style.display == 'block'){
+                li4_s1.style.display = 'none'
+                li4_s2.style.display = 'none'
+                li4_s3.style.display = 'none'
+                li4_s4.style.display = 'none'
+            }else{
+                li4_s1.style.display = 'block'
+                li4_s2.style.display = 'block'
+                li4_s3.style.display = 'block'
+                li4_s4.style.display = 'block'
+            }
+        }
+        function clickE(){
+            if(li5.style.display == 'block'){
+                li5_s1.style.display = 'none'
+                li5_s2.style.display = 'none'
+                li5_s3.style.display = 'none'
+                li5_s4.style.display = 'none'
+            }else{
+                li5_s1.style.display = 'block'
+                li5_s2.style.display = 'block'
+                li5_s3.style.display = 'block'
+                li5_s4.style.display = 'block'
+            }
+        }
+            
     </script>
     
 </body>

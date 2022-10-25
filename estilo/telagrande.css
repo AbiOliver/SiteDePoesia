@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 800px) {
     header{
         width: 768px;
         margin: auto;
@@ -53,7 +53,7 @@ menu ul{
   padding: 10px;
 
 }
-:focus ~ .sublista{
+a:focus ~ .sublista{
   display: block;
   background-color: #f49681;
   visibility: visible;
@@ -103,12 +103,13 @@ section{
 
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 800px){
   header>h1{
     font-size: 2.5em;
   }
   menu{
     background-color:  #F2E9CE;
+    box-shadow: 1px 3px 5px #D99484;
   }
    menu>ul>li>a{
     border-top:1px solid #D99484;  
@@ -117,29 +118,33 @@ section{
    menu>ul>li>a:hover{
     border-top:1px solid #A62631;
     color: #A62631;
-
    }
    .sublista{
-    display: block;
-    text-align: center;
-    color: #F2E9CE;
-    visibility: hidden;
-    height:0;
+     display: none;
+     text-align: center;
+     color: #F2E9CE;
+     background-color: #D99484;
+     height: 30px;
+     padding: 5px;
+     box-shadow: inset 1px 0px 2px #7c564d ;
+     transition: .4s ease;
+     border:1px solid white;
 }
-a:focus ~ .sublista{
+/*a:active ~ div.sublista {
     display: block;
     background-color: #D99484;
-    visibility: visible;
+    overflow: visible;
     height: 30px;
     padding: 5px;
     box-shadow: inset 1px 0px 2px #7c564d ;
     transition: .4s ease;
     border:1px solid white;
-}
+}*/
+
 a.liPoesia{
     border-bottom: none;
     color: white;
-  
+   
 }
 a.liPoesia:hover{
     border-bottom: none;

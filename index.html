@@ -25,40 +25,40 @@
                  <ul >                       
                     <li>
                         <a href="#" onclick="clickA()" id="li">Românticas</a>
-                         <div class="sublista" id="li_s1"><a href="poesias/romantica.html" class="liPoesia" >garota complexa</a></div>
-                         <div class="sublista" id="li_s2"><a href="poesias/moçalinda.html" class="liPoesia">moça linda</a></div>
-                         <div class="sublista" id="li_s3"><a href="" class="liPoesia">espetacular</a></div>
-                         <div class="sublista" id="li_s4"><a href="" class="liPoesia">estrela</a></div>
+                         <div class="sublista  " id="li_s1"><a href="poesias/romantica.html" class="liPoesia" >Garota complexa</a></div>
+                         <div class="sublista " id="li_s2"><a href="poesias/moçalinda.html" class="liPoesia">Moça linda</a></div>
+                         <div class="sublista " id="li_s3"><a href="poesias/Fases.html" class="liPoesia">Várias fases</a></div>
+                         <div class="sublista " id="li_s4"><a href="" class="liPoesia">estrela</a></div>
                         </li>      
                     <li >
                        
                         <a href="#" onclick="clickB()" id="li2">Críticas</a>
-                        <div class="sublista"  id="li2_s1"><a href="romantica.html" class="liPoesia">garota complexa</a></div>
-                         <div class="sublista" id="li2_s2"><a href="" class="liPoesia">moça linda</a></div>
-                         <div class="sublista" id="li2_s3"><a href="" class="liPoesia">espetacular</a></div>
-                         <div class="sublista" id="li2_s4"><a href="" class="liPoesia">estrela</a></div>
+                        <div class="sublista "  id="li2_s1"><a href="romantica.html" class="liPoesia">garota complexa</a></div>
+                         <div class="sublista " id="li2_s2"><a href="" class="liPoesia">moça linda</a></div>
+                         <div class="sublista " id="li2_s3"><a href="" class="liPoesia">espetacular</a></div>
+                         <div class="sublista " id="li2_s4"><a href="" class="liPoesia">estrela</a></div>
                     </li>
 
                     <li>
                         <a href="#" onclick="clickC()" id="li3">Eróticas</a>
-                        <div class="sublista" id="li3_s1"><a href="romantica.html" class="liPoesia">garota complexa</a></div>
-                        <div class="sublista" id="li3_s2"><a href="" class="liPoesia">moça linda</a></div>
-                        <div class="sublista" id="li3_s3"><a href="" class="liPoesia">espetacular</a></div>
-                        <div class="sublista" id="li3_s4"><a href="" class="liPoesia">estrela</a></div>
+                        <div class="sublista " id="li3_s1"><a href="romantica.html" class="liPoesia">garota complexa</a></div>
+                        <div class="sublista " id="li3_s2"><a href="" class="liPoesia">moça linda</a></div>
+                        <div class="sublista " id="li3_s3"><a href="" class="liPoesia">espetacular</a></div>
+                        <div class="sublista " id="li3_s4"><a href="" class="liPoesia">estrela</a></div>
                     </li>
 
                     <li><a href="#" onclick="clickD()" id="li4">Livres </a>
-                        <div class="sublista" id="li4_s1"><a href="romantica.html" class="liPoesia">garota complexa</a></div>
-                        <div class="sublista" id="li4_s2"><a href="" class="liPoesia">moça linda</a></div>
-                        <div class="sublista" id="li4_s3"><a href="" class="liPoesia">espetacular</a></div>
-                        <div class="sublista" id="li4_s4"><a href="" class="liPoesia">estrela</a></div>
+                        <div class="sublista " id="li4_s1"><a href="romantica.html" class="liPoesia">garota complexa</a></div>
+                        <div class="sublista " id="li4_s2"><a href="" class="liPoesia">moça linda</a></div>
+                        <div class="sublista " id="li4_s3"><a href="" class="liPoesia">espetacular</a></div>
+                        <div class="sublista " id="li4_s4"><a href="" class="liPoesia">estrela</a></div>
                     </li>       
 
-                    <li><a href="#" onclick="clickE()" id="li5">Outras</a>
-                        <div class="sublista" id="li5_s1"><a href="romantica.html" class="liPoesia">garota complexa</a></div>
-                         <div class="sublista" id="li5_s2"><a href="" class="liPoesia">moça linda</a></div>
-                         <div class="sublista" id="li5_s3"><a href="" class="liPoesia">espetacular</a></div>
-                         <div class="sublista" id="li5_s4"><a href="" class="liPoesia">estrela</a></div>
+                    <li><a href="#" onclick="clickE()" id="li5">Melancólica</a>
+                        <div class="sublista " id="li5_s1"><a href="./poesias/Cachoeira.html" class="liPoesia">Cachoeira de sentimentos</a></div>
+                         <div class="sublista " id="li5_s2"><a href="" class="liPoesia">moça linda</a></div>
+                         <div class="sublista " id="li5_s3"><a href="" class="liPoesia">espetacular</a></div>
+                         <div class="sublista " id="li5_s4"><a href="" class="liPoesia">estrela</a></div>
                     </li>
                 </ul>
      </menu>
@@ -68,7 +68,7 @@
         <section class="session" >
                 <a href="poesias/romantica.html"   id="a1">romântica</a>
                 <span class="material-icons">eco</span>
-                <a href="poesias/melancólica.html" id="a2"  >triste</a>
+                <a href="poesias/melancólica.html" id="a2">triste</a>
                 <span class="material-icons">eco</span>
                 <a href="poesias/Eu.html"  id="a3">livre</a>
                 <span class="material-icons">eco</span>
@@ -92,22 +92,20 @@
             }    
         }
         function clickA(){
-            if(li.style.display == 'block'){
+            if(li_s1.style.display == 'block'){
                 li_s1.style.display = 'none'
                 li_s2.style.display = 'none'
                 li_s3.style.display = 'none'
                 li_s4.style.display = 'none'
-
             }else{
                 li_s1.style.display = 'block'
                 li_s2.style.display = 'block'
                 li_s3.style.display = 'block'
                 li_s4.style.display = 'block'
-            } 
-           
+            }   
         }
         function clickB(){
-            if(li2.style.display == 'block'){
+            if(li2_s1.style.display == 'block'){
                 li2_s1.style.display = 'none'
                 li2_s2.style.display = 'none'
                 li2_s3.style.display = 'none'
@@ -120,7 +118,7 @@
             }
         }
         function clickC(){
-            if(li3.style.display == 'block'){
+            if(li3_s1.style.display == 'block'){
                 li3_s1.style.display = 'none'
                 li3_s2.style.display = 'none'
                 li3_s3.style.display = 'none'
@@ -133,7 +131,7 @@
             }
         }
         function clickD(){
-            if(li4.style.display == 'block'){
+            if(li4_s1.style.display == 'block'){
                 li4_s1.style.display = 'none'
                 li4_s2.style.display = 'none'
                 li4_s3.style.display = 'none'
@@ -146,7 +144,7 @@
             }
         }
         function clickE(){
-            if(li5.style.display == 'block'){
+            if(li5_s1.style.display == 'block'){
                 li5_s1.style.display = 'none'
                 li5_s2.style.display = 'none'
                 li5_s3.style.display = 'none'

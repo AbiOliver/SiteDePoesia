@@ -75,14 +75,15 @@ span#burguer{
 }
 menu{
     display: none;
+    background-color:  #F2E9CE;
+    box-shadow: 1px 3px 5px #D99484;
 }
 menu > ul{
     list-style-type: none;
     text-decoration: none;   
 }
-menu > ul > li > a{
+menu > ul > li > a{  
        display: block ;
-       padding: 10px;
        text-decoration: none;
        text-align: center;
        color: #D99484;
@@ -90,8 +91,28 @@ menu > ul > li > a{
        background-color: #F2E9CE;
        transition: 1s ease;
 }
+.sublista{
+    display: none;
+    text-align: center;
+    color: #F2E9CE;
+    background-color: #D99484;
+    height: 30px;
+    padding: 5px;
+    box-shadow: inset 1px 0px 2px #7c564d ;
+    transition: .4s ease;
+    border:1px solid white;
+}
+a.liPoesia{
+   border-bottom: none;
+   color: white;
+}
+a.liPoesia:hover{
+   border-bottom: none;
+   color: #F2E9CE;
+} 
 main{
     display: block;
+    margin-bottom: 10px;
 }
 section{
     width: 350px;

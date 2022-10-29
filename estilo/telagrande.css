@@ -6,14 +6,14 @@
 }
 
 @media screen and (min-width: 800px) {
-    header{
+header{
         width: 768px;
         margin: auto;
         margin-bottom: 20px;
         border: 1px solid #D99484;
         border-top: none;
         border-radius: 0px 0px 10px 10px;
-    }
+     }
 span#burguer{
     display: block;
 }
@@ -72,6 +72,7 @@ main{
 }
 section.session{
   z-index: -1;
+  
 }
 section img{
   width: 100px;
@@ -86,18 +87,18 @@ section{
   font-size: 15px;
   line-height: 2em;
   width: 768px;
+  
 }
 
   span.material-icons{
     display:flex;
-    border-top: 1px solid;
     color:#8C6472 ;
   }
-
+ 
   .session a:hover ~ .material-icons{
     color:#A62631 ;
+  
   }
-
 }
 
 @media screen and (max-width: 800px){
@@ -140,7 +141,7 @@ main img{
 }
       .material-icons{
         display:flex;
-        border-top: 1px solid;
+        
         color:#8C6472 ;
       }
       section.session{
@@ -153,5 +154,8 @@ main img{
      .session a:hover ~ .material-icons{
         color:#A62631 ;
       }
+   .line{
+    font-size: 10px;
+   }
     
 }

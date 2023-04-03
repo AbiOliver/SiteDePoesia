@@ -80,7 +80,9 @@ menu{
     display: none;
     background-color:  #F2E9CE;
     box-shadow: 1px 3px 5px #D99484;
+   
 }
+
 menu > ul{
     list-style-type: none;
     text-decoration: none;   
@@ -92,7 +94,6 @@ menu > ul > li > a{
        color: #D99484;
        font-weight: bold;
        background-color: #F2E9CE;
-       transition: 1s ease;
 }
 .sublista{
     display: none;
@@ -102,9 +103,12 @@ menu > ul > li > a{
     height: 30px;
     padding: 5px;
     box-shadow: inset 1px 0px 2px #7c564d ;
-    transition: .4s ease;
     border:1px solid white;
 }
+.sublista:hover{
+    transition:  .6s ease-in-out;
+}
+
 a.liPoesia{
    border-bottom: none;
    color: white;
@@ -222,7 +226,7 @@ footer{
     overflow: hidden;
   }
   .animac{ 
-    animation: pisca 600ms infinite  normal ;
+    animation: pisca 500ms infinite  normal ;
     animation: forma 10s steps(120)  infinite normal;
   }
   .ler{
@@ -246,7 +250,7 @@ footer{
   }
   h6{
     font-variant: small-caps;
-    border-right: 2px solid rgba(0, 0, 0, 0.632);
+    border-right: 2px solid #D99484;
     box-shadow: 0px 1px 1px #D99484;
   }
  
